@@ -12,4 +12,6 @@ git config --list
  git add  file_name.abc
  git add  . 全部加入
  git commit -m "描述信息"
+ git commit -a 全部加入并生成版本
  git log 查看日志
+ 
