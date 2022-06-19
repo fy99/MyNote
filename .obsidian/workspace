@@ -4,16 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "ba4918eeb63eaa77",
+        "id": "e16e3744590c67ea",
         "type": "leaf",
+        "dimension": 22.616033755274263,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "GIT/git.md"
+          }
+        },
+        "group": "c2d48b77c850a477"
+      },
+      {
+        "id": "b26d1028a6092016",
+        "type": "leaf",
+        "dimension": 77.38396624472574,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "git.md",
+            "file": "GIT/git.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "c2d48b77c850a477"
       }
     ],
     "direction": "vertical"
@@ -53,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304
+    "width": 195
   },
   "right": {
     "id": "1763a25b0ea8d35f",
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
+                "file": "GIT/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +101,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ba4918eeb63eaa77",
+  "active": "b26d1028a6092016",
   "lastOpenFiles": [
-    "git.md",
-    "cv.md",
-    "A-plan.md",
-    "numpy.md",
-    "python/TOOLS.md",
+    "GIT/git.md",
     "python/itertools.md",
+    "DataPackage/numpy.md",
+    "A-plan.md",
+    "DataPackage/openCv.md",
+    "DataPackage/openCv advantage.md",
+    "C/C.md",
     "C/star_p function.md",
     "C/parr.png",
-    "[.md",
-    "C/C.md"
+    "matplotlib.md"
   ]
 }

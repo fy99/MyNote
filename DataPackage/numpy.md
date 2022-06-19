@@ -12,10 +12,13 @@
 		1. stack  直接堆叠
 		2. dstack 拆开每个元素 然后堆叠
 
+	- 降低一个维度
+		np.concatenate([ [1,2], [3,4] ], axis) =>[1, 2, 3, 4] 
+
 
 ### First
 ndarray
-- .ndim 维度 dimension       
+- .ndim 维度 dimension       ndmin = 2  设置为二维
 - .shape (x,y)       
 - .size       
 - .dtype       
@@ -134,7 +137,8 @@ void        == V
 - n = np.random.rand(1000)  
   
 ### 正太分布 normal distribution
-- n = np.random.randn(1000)  
+- n = np.random.normal(size=1000, loc=50, scale=0.2)  
+
 ### 随机整数  
 - n=np.random.randint(0,101,(2,1000),"u1")  
   
@@ -158,6 +162,12 @@ np.where()
   
 ### 去重  
 np.unique  
+
+### 截取小数
+- np.around()    
+- np.trunc()
+- np.fix()
+
 
 ### F
 arg 位置有关  

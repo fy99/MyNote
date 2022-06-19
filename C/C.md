@@ -12,7 +12,7 @@ SIZE OF
 SCANF
 scanf("%d%d", &a, &b);
 
-### p
+### 指针
 
 &v \*p
 &v - &v = 元素的个数 
@@ -125,4 +125,19 @@ int arr[3][4] = {{1, 2, 3, 4},
   
 int (*p_0)[4] = &(arr[0]);  
 int (*p[3])[4] = {&(arr[0]), &(arr[1]), &(arr[2])};
+```
+
+### 函数指针
+
+```
+int add(int x, int y) { return x + y; }  
+  void add2(int x, int y) {}  
+  
+  
+int main() {  
+	
+    int (*pf)(int, int) =add;  
+    void (*pff)(int, int) =add2;  
+	int a = (*pf)(3,5)
+}
 ```

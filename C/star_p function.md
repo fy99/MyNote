@@ -1,4 +1,4 @@
-# 函数指针
+ 函数指针
 
 ```
 int add(int x, int y) { return x + y; }  
