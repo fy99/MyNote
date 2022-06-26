@@ -1,21 +1,26 @@
 #  Numpy
-## important
-- .view() 浅拷贝 可以以不同类型显示(数据相同)
-- .copy() 深拷贝
+## Important
+- .view() 浅拷贝 可以以不同类型显示(数据相同)  ravel
+- .copy() 深拷贝                                                    flatten
+- astype() 数据转换
+- ravel() 全局一维化
+- repeat(ndarray,times,axis) 
 
 - np.stack() 堆叠 
 	- 不改变维度
 		1. row_stack == vstack 竖着堆
 		2. colom_stack == hstack 横着堆
-	
+		
 	- 增加一维度
-		1. stack  直接堆叠
-		2. dstack 拆开每个元素 然后堆叠
+		1. stack  直接堆叠 R_max 堆叠
+		2. dstack 拆开每个元素 然后堆叠 R0 堆叠
 
-	- 降低一个维度
+
+- 降低一个维度
 		np.concatenate([ [1,2], [3,4] ], axis) =>[1, 2, 3, 4] 
-
-
+- **transpose:** used to reverse the axes of an array
+- percentile -range [0, 100]
+	(ndarry, perc, axies, keepndim=bool)
 ### First
 ndarray
 - .ndim 维度 dimension       ndmin = 2  设置为二维

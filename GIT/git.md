@@ -32,7 +32,7 @@ git reset --hard [log中的hash]
 6. git checkout -- filename.abc : head=>work
 
 
-
+### reset --command
 
 #### 1. hard
 

@@ -6,28 +6,28 @@
       {
         "id": "e16e3744590c67ea",
         "type": "leaf",
-        "dimension": 22.616033755274263,
+        "dimension": 29.184188393608075,
         "state": {
           "type": "outline",
           "state": {
-            "file": "GIT/git.md"
+            "file": "DataPackage/openCv.md"
           }
         },
-        "group": "c2d48b77c850a477"
+        "group": "def6033a22fb8c2c"
       },
       {
-        "id": "b26d1028a6092016",
+        "id": "bca29b9160e34c21",
         "type": "leaf",
-        "dimension": 77.38396624472574,
+        "dimension": 70.81581160639192,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GIT/git.md",
+            "file": "DataPackage/openCv.md",
             "mode": "source",
             "source": false
           }
         },
-        "group": "c2d48b77c850a477"
+        "group": "def6033a22fb8c2c"
       }
     ],
     "direction": "vertical"
@@ -55,9 +55,9 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 195
+    "width": 191
   },
   "right": {
     "id": "1763a25b0ea8d35f",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT/git.md",
+                "file": "DataPackage/openCv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,25 +93,33 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "a47ee74c6e9e65b7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 153.5,
     "collapsed": true
   },
-  "active": "b26d1028a6092016",
+  "active": "bca29b9160e34c21",
   "lastOpenFiles": [
-    "GIT/git.md",
-    "python/itertools.md",
-    "DataPackage/numpy.md",
-    "A-plan.md",
     "DataPackage/openCv.md",
-    "DataPackage/openCv advantage.md",
-    "C/C.md",
-    "C/star_p function.md",
-    "C/parr.png",
-    "matplotlib.md"
+    "DataPackage/numpy.md",
+    "DataPackage/matplotlib.md",
+    "DataPackage/cv2.md",
+    "python/itertools&collections.md",
+    "GIT/git.md",
+    "DataPackage/200+ openCv function.md",
+    "python/TOOLS.md",
+    "DataPackage/BilateralFilter.png",
+    "DataPackage/openCv advantage.md"
   ]
 }

@@ -1,3 +1,4 @@
+# Itertools
 ## Infinite iterators
 1. count(start,[step]) 
 	- count(100,5) => 100 105 110 ...
@@ -46,3 +47,19 @@
 11. takewhile(lambda x: x<5, [1,4,6,4,1]) --> 1 4
 12. tee()
 13. zip_longest('ABCD', 'xy', fillvalue='-') --> Ax By C- D-
+
+# Collections
+| Name         | Funciton                                                             |
+|:------------ |:-------------------------------------------------------------------- |
+| namedtuple() | factory function for creating tuple subclasses with named fields     |
+| deque        | list-like container with fast appends and pops on either end         |
+| ChainMap     | dict-like class for creating a single view of multiple mappings      |
+| Counter      | dict subclass for counting hashable objects                          |
+| OrderedDict  | dict subclass that remembers the order entries were added            |
+| defaultdict  | dict subclass that calls a factory function to supply missing values |
+| UserDict     | wrapper around dictionary objects for easier dict subclassing        |
+| UserList     | wrapper around list objects for easier list subclassing              |
+| UserString   | wrapper around string objects for easier string subclassing          |
+|              |                                                                      |
+
+

@@ -7,9 +7,8 @@ import keyboard
   
 keys = [("ctrl", "alt", "a"), "f10"]  
   
-keyboard.add_hotkey(keys[0], lambda: os.system(r"C:\Users\fy\Desktop\python.py\ScreenShot\QQSnapShot.exe"))  
-keyboard.add_hotkey(keys[1], lambda: os.system(r"C:\Users\fy\Desktop\python.py\ScreenShot\QQSnapShot.exe"))  
-# keyboard.remove_hotkey("f10")  
+keyboard.add_hotkey(keys[0], lambda: )  
+keyboard.add_hotkey(keys[1], lambda: )  
   
 try:  
     input("F10 Ctrl+Alt+A")  
@@ -69,4 +68,12 @@ if __name__ == '__main__':
 ```python
 import msvcrt
 i = msvcrt.getch()        .decode().lower()
+```
+
+### 用户名和桌面
+```python
+import getpass  
+user=getpass.getuser()  
+desktop_dash=f'C:\\Users\\{user}\\Desktop/'
+desktop_dash=f'C:/fUsers/{getpass.getuser()}/Desktop/'
 ```
