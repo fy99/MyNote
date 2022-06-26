@@ -4,30 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "e16e3744590c67ea",
+        "id": "78cb530c28c54582",
         "type": "leaf",
-        "dimension": 29.184188393608075,
+        "dimension": 24.227799227799228,
+        "pinned": true,
         "state": {
           "type": "outline",
           "state": {
             "file": "DataPackage/openCv.md"
-          }
+          },
+          "pinned": true
         },
-        "group": "def6033a22fb8c2c"
+        "group": "3df2e65cc346998e"
       },
       {
-        "id": "bca29b9160e34c21",
+        "id": "8f0a3c34de1e0d8d",
         "type": "leaf",
-        "dimension": 70.81581160639192,
+        "dimension": 75.77220077220078,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "DataPackage/openCv.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
-          }
+          },
+          "pinned": true
         },
-        "group": "def6033a22fb8c2c"
+        "group": "3df2e65cc346998e"
       }
     ],
     "direction": "vertical"
@@ -67,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 191
+    "width": 191,
+    "collapsed": true
   },
   "right": {
     "id": "1763a25b0ea8d35f",
@@ -102,24 +107,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 153.5,
     "collapsed": true
   },
-  "active": "bca29b9160e34c21",
+  "active": "78cb530c28c54582",
   "lastOpenFiles": [
     "DataPackage/openCv.md",
     "DataPackage/numpy.md",
-    "DataPackage/matplotlib.md",
     "DataPackage/cv2.md",
-    "python/itertools&collections.md",
+    "DataPackage/matplotlib.md",
+    "DataPackage/BilateralFilter.png",
     "GIT/git.md",
+    "python/itertools&collections.md",
     "DataPackage/200+ openCv function.md",
     "python/TOOLS.md",
-    "DataPackage/BilateralFilter.png",
     "DataPackage/openCv advantage.md"
   ]
 }
